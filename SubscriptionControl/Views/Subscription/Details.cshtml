@@ -1,0 +1,32 @@
+﻿@model SubscriptionControl.Models.Subscription
+
+@{
+    ViewData["Title"] = "Detalhes do Serviço Contratado";
+}
+
+<h1> @ViewData["Title"] </h1>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ServiceSubscription)
+        </dt>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PlanType)
+        </dt>
+        <dt class="col-sm-2">
+            @Model.StartSubscription.ToString("dd/MM/yyyy")
+        </dt>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PaymentMethod)
+        </dt>
+    </dl>
+</div>
+    
+<div>
+    <a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model.Id"> Editar</a> |
+    <a asp-action="Index" class="btn btn-warning">Voltar</a>
+</div>

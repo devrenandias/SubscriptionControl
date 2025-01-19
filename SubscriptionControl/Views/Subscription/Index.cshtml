@@ -1,0 +1,68 @@
+﻿@model IEnumerable<SubscriptionControl.Models.Subscription>
+
+@{
+    ViewData["Title"] = "Lista de Vencimentos de Serviços de Streaming";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create"> <span class="fa fa-plus"></span>Novo</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id) 
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ServiceSubscription) 
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price) 
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PlanType) 
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartSubscription) 
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateExpiration) 
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PaymentMethod)
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach( var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ServiceSubscription)
+                </td>
+                 <td>
+                    @Html.DisplayFor(modelItem => item.Price, "Currency")
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PlanType)
+                </td>
+                <td>
+                   @item.StartSubscription.ToString("dd/MM/yyyy")
+                </td>
+                <td>
+                   @item.DateExpiration.ToString("dd/MM/yyyy")
+                </td> 
+                 <td>
+                   @Html.DisplayFor(modelItem => item.PaymentMethod)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -14,13 +14,15 @@ namespace SubscriptionControl.Controllers
             _subs = subs;
         }
 
-
+        //Mostrando todos os itens
+        
         public async Task<IActionResult> Index()
         {
             var subs = await _subs.Subscriptions.ToListAsync();
             return View(subs);
         }
 
+        //Mostrando os Detalhes
         public async Task<IActionResult> Details(int id)
         {
             if (_subs.Subscriptions == null)
@@ -37,21 +39,33 @@ namespace SubscriptionControl.Controllers
             return View(subs);
         }
 
+        //Novo
+        [Route("novo")]
         public IActionResult Create()
         {
             return View();
         }
 
+        [HttpPost("novo")]
         public async Task<IActionResult> Create(Subscription subs)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid) // Apenas se o modelo for válido
             {
+                // Adiciona 30 dias à data de início
+                subs.DateExpiration = subs.StartSubscription.Date.AddDays(30);
+
+                // Adiciona o objeto ao banco de dados
                 _subs.Subscriptions.Add(subs);
                 await _subs.SaveChangesAsync();
+
+                // Redireciona para o índice após salvar
                 return RedirectToAction("Index");
             }
-            return View(Index);
+
+            // Se o modelo for inválido, retorna à view "Create" com o modelo atual
+            return View(subs);
         }
+
 
         // Método GET: Exibe o formulário de edição
         public async Task<IActionResult> Edit(int id)

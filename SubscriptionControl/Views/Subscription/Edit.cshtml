@@ -1,0 +1,61 @@
+﻿@model SubscriptionControl.Models.Subscription
+
+@{
+    ViewData["Title"] = "Editar Cadastro do Serviço de Streaming";
+}
+
+<h1> @ViewData["Title"]</h1>
+<h4> Dados do Streaming @Model.ServiceSubscription</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="ServiceSubscription" class="control-label"></label>
+                <input asp-for="ServiceSubscription" class="form-control" />
+                <span asp-validation-for="ServiceSubscription" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="PlanType" class="control-label"></label>
+                <input asp-for="PlanType" class="form-control" />
+                <span asp-validation-for="PlanType" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="StartSubscription" class="control-label"></label>
+                <input asp-for="StartSubscription" class="form-control" />
+                <span asp-validation-for="StartSubscription" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="PaymentMethod" class="control-label"></label>
+                <input asp-for="PaymentMethod" class="form-control" />
+                <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="Editar" class="btn btn-primary" /> |
+                <a asp-action="Index" class="btn btn-warning">Voltar</a>
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

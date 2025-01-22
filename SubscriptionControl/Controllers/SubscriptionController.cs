@@ -68,6 +68,7 @@ namespace SubscriptionControl.Controllers
 
 
         // Método GET: Exibe o formulário de edição
+        [Route("editar/{id:int}")]
         public async Task<IActionResult> Edit(int id)
         {
             if (_subs.Subscriptions == null)
@@ -84,7 +85,7 @@ namespace SubscriptionControl.Controllers
         }
 
         // Método POST: Processa a edição e salva as alterações
-
+        [HttpPost("editar/{id:int}")]
         public async Task<IActionResult> Edit(int id, Subscription subs)
         {
             if (id != subs.Id)
@@ -114,6 +115,7 @@ namespace SubscriptionControl.Controllers
             return View(subs);
         }
 
+        [Route("excluir/{id:int}")]
         public async Task<IActionResult> Delete(int id)
         {
             if (_subs.Subscriptions == null)
@@ -130,6 +132,7 @@ namespace SubscriptionControl.Controllers
         }
 
         //POST
+        [HttpPost("excluir/{id:int}"), ActionName("Delete")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var subs = await _subs.Subscriptions.FindAsync(id);

@@ -4,29 +4,52 @@
     ViewData["Title"] = "Detalhes do Serviço Contratado";
 }
 
-<h1> @ViewData["Title"] </h1>
+<div class="text-center">
+    <h1>@ViewData["Title"]</h1>
 
-<div>
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.ServiceSubscription)
-        </dt>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.PlanType)
-        </dt>
-        <dt class="col-sm-2">
-            @Model.StartSubscription.ToString("dd/MM/yyyy")
-        </dt>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.PaymentMethod)
-        </dt>
-    </dl>
 </div>
-    
-<div>
-    <a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model.Id"> Editar</a> |
-    <a asp-action="Index" class="btn btn-warning">Voltar</a>
+
+<!-- Detalhes em Tabela -->
+<div class="table-responsive text-center">
+    <table class="table table-bordered mx-auto">
+        <thead>
+            <tr>
+                <th>Campo</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.ServiceSubscription)</td>
+                <td>@Html.DisplayFor(model => model.ServiceSubscription)</td>
+            </tr>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.Price)</td>
+                <td>@Html.DisplayFor(model => model.Price)</td>
+            </tr>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.PlanType)</td>
+                <td>@Html.DisplayFor(model => model.PlanType)</td>
+            </tr>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.StartSubscription)</td>
+                <td>@Model.StartSubscription.ToString("dd/MM/yyyy")</td>
+            </tr>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.PaymentMethod)</td>
+                <td>@Html.DisplayFor(model => model.PaymentMethod)</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
+
+<!-- Legenda de Métodos de Pagamento -->
+<small><strong>Legenda de Métodos de Pagamento:</strong> Cartão de Crédito (1), Boleto (2), Pix (3), PayPal (4)</small>
+<br />
+<!-- Legenda de Planos -->
+<small><strong>Legenda de Planos:</strong> Básico (1), Intermediário (2), Premium (3)</small>
+
+<p style="text-align: center;">
+    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model.Id">Editar</a> |
+    <a class="btn btn-warning" asp-action="Index">Voltar</a>
+</p>

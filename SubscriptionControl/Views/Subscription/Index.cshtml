@@ -4,65 +4,55 @@
     ViewData["Title"] = "Lista de Vencimentos de Serviços de Streaming";
 }
 
-<h1>@ViewData["Title"]</h1>
+<div class="text-center">
+    <h1>@ViewData["Title"]</h1>
 
-<p>
-    <a class="btn btn-primary" asp-action="Create"> <span class="fa fa-plus"></span>Novo</a>
-</p>
+    <p>
+        <a class="btn btn-primary" asp-action="Create"> <span class="fa fa-plus"></span> Novo</a>
+    </p>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Id) 
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ServiceSubscription) 
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price) 
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PlanType) 
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.StartSubscription) 
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DateExpiration) 
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PaymentMethod)
-            </th>
-        </tr>
-    </thead>
+    <!-- Legenda compacta de Métodos de Pagamento -->
+    <small><strong>Legenda de Métodos de Pagamento:</strong> Cartão de Crédito (1), Boleto (2), Pix (3), PayPal (4)</small>
+    <br />
+    <!-- Legenda compacta de Planos -->
+    <small><strong>Legenda de Planos:</strong> Básico (1), Intermediário (2), Premium (3)</small>
+</div>
 
-    <tbody>
-        @foreach( var item in Model)
-        {
+<!-- Tabela de Assinaturas -->
+<div class="table-responsive text-center">
+    <table class="table table-bordered mx-auto">
+        <thead>
             <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Id)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ServiceSubscription)
-                </td>
-                 <td>
-                    @Html.DisplayFor(modelItem => item.Price, "Currency")
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.PlanType)
-                </td>
-                <td>
-                   @item.StartSubscription.ToString("dd/MM/yyyy")
-                </td>
-                <td>
-                   @item.DateExpiration.ToString("dd/MM/yyyy")
-                </td> 
-                 <td>
-                   @Html.DisplayFor(modelItem => item.PaymentMethod)
-                </td>
+                <th>@Html.DisplayNameFor(model => model.Id)</th>
+                <th>@Html.DisplayNameFor(model => model.ServiceSubscription)</th>
+                <th>@Html.DisplayNameFor(model => model.Price)</th>
+                <th>@Html.DisplayNameFor(model => model.PlanType)</th>
+                <th>@Html.DisplayNameFor(model => model.StartSubscription)</th>
+                <th>@Html.DisplayNameFor(model => model.DateExpiration)</th>
+                <th>@Html.DisplayNameFor(model => model.PaymentMethod)</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                    <td>@Html.DisplayFor(modelItem => item.ServiceSubscription)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Price, "Currency")</td>
+                    <td>@Html.DisplayFor(modelItem => item.PlanType)</td>
+                    <td>@item.StartSubscription.ToString("dd/MM/yyyy")</td>
+                    <td>@item.DateExpiration.ToString("dd/MM/yyyy")</td>
+                    <td>@Html.DisplayFor(modelItem => item.PaymentMethod)</td>
+                    <td>
+                        <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                        <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+
+                    </td>
+                </tr>
+            
+            }
+        </tbody>
+    </table>
+</div>

@@ -14,4 +14,6 @@ namespace SubscriptionControl.Enums
         [Display(Name = "Plano Premium")]
         Premium = 3
     }
+
+    
 }

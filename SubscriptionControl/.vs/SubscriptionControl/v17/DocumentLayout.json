@@ -3,40 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|c:\\users\\renan dias\\desktop\\subscriptioncontrol\\subscriptioncontrol\\enums\\plantypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|solutionrelative:enums\\plantypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\views\\subscription\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|solutionrelative:views\\subscription\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|c:\\users\\renan dias\\desktop\\subscriptioncontrol\\subscriptioncontrol\\controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|solutionrelative:controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|solutionrelative:models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\views\\subscription\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|solutionrelative:views\\subscription\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\views\\subscription\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|solutionrelative:views\\subscription\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\views\\subscription\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|solutionrelative:views\\subscription\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|c:\\users\\renan dias\\desktop\\subscriptioncontrol\\subscriptioncontrol\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\views\\subscription\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|solutionrelative:views\\subscription\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\views\\subscription\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|solutionrelative:views\\subscription\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\views\\subscription\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|solutionrelative:views\\subscription\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\views\\subscription\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|solutionrelative:views\\subscription\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|c:\\users\\renan dias\\desktop\\subscriptioncontrol\\subscriptioncontrol\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|c:\\users\\renan dias\\desktop\\subscriptioncontrol\\subscriptioncontrol\\enums\\plantypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|solutionrelative:enums\\plantypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|solutionrelative:models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4EA90DE-8B7B-4DB2-8876-EFFCD083FB79}|SubscriptionControl.csproj|C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,56 +66,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAIwBMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T23:20:33.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T23:16:33.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "PlanTypeEnum.cs",
               "DocumentMoniker": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Enums\\PlanTypeEnum.cs",
               "RelativeDocumentMoniker": "Enums\\PlanTypeEnum.cs",
               "ToolTip": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Enums\\PlanTypeEnum.cs",
               "RelativeToolTip": "Enums\\PlanTypeEnum.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAASwA8AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAASwAcAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T22:16:33.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Views\\Subscription\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Subscription\\Delete.cshtml",
               "ToolTip": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Views\\Subscription\\Delete.cshtml",
               "RelativeToolTip": "Views\\Subscription\\Delete.cshtml",
-              "ViewState": "AQIAABkAAAAAAAAAAAAIwDEAAAALAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAIwDkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-17T09:51:34.435Z"
+              "WhenOpened": "2025-01-17T09:51:34.435Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Views\\Subscription\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Subscription\\Edit.cshtml",
               "ToolTip": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Views\\Subscription\\Edit.cshtml",
               "RelativeToolTip": "Views\\Subscription\\Edit.cshtml",
-              "ViewState": "AQIAACIAAAAAAAAAAAAwwDIAAAAAAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAIwD0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-17T09:37:06.206Z"
+              "WhenOpened": "2025-01-17T09:37:06.206Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Views\\Subscription\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Subscription\\Details.cshtml",
               "ToolTip": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Views\\Subscription\\Details.cshtml",
               "RelativeToolTip": "Views\\Subscription\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAGAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-17T01:49:54.363Z"
+              "WhenOpened": "2025-01-17T01:49:54.363Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -123,46 +156,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Views\\Subscription\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Subscription\\Create.cshtml",
               "ToolTip": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Views\\Subscription\\Create.cshtml",
               "RelativeToolTip": "Views\\Subscription\\Create.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACYAAABWAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAQwDkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-16T03:16:21.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAACCAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-16T03:12:06.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Views\\Subscription\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Subscription\\Index.cshtml",
               "ToolTip": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Views\\Subscription\\Index.cshtml",
               "RelativeToolTip": "Views\\Subscription\\Index.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADYAAAAVAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAIwDoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-16T02:56:07.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -174,20 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SubscriptionController.cs",
-              "DocumentMoniker": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Controllers\\SubscriptionController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SubscriptionController.cs",
-              "ToolTip": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Controllers\\SubscriptionController.cs",
-              "RelativeToolTip": "Controllers\\SubscriptionController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T12:59:09.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Subscription.cs",
               "DocumentMoniker": "C:\\Users\\Renan Dias\\Desktop\\SubscriptionControl\\SubscriptionControl\\Models\\Subscription.cs",
               "RelativeDocumentMoniker": "Models\\Subscription.cs",
